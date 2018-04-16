@@ -1,6 +1,10 @@
 {
   "name": "productstore",
   "version": "0.0.0",
+  "author":"Sai G",
+  "keywords": [
+    "API", "NodeJS", "Express", "REST", "Product Store"
+  ],
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
