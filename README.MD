@@ -12,6 +12,7 @@ npm install express-generator -g
 express --view=pug myapp
 ```
 and the directory structure is
+```
 ├── app.js
 ├── bin
 │   └── www
@@ -34,7 +35,7 @@ and the directory structure is
     ├── error.pug
     ├── index.pug
     └── layout.pug
-
+```
 ### Installing
 To run the app just intall the required dependencies and and hit npm start i.e.
 
