@@ -46,7 +46,7 @@ npm install
 npm start
 ```
 
-### API soruces and information
+### API sources and information
 
 The APP is to give an idea about how to generate & call GET APIs using nodejs and express. I've initially called a GET API to get the data and create three GET APIs, two reflects the same called API and other aggregated list of called API that is generated from the above two APIs. We can pass in a filter that filters the product list from the available all the list of products.
  |
@@ -56,7 +56,7 @@ The APP is to give an idea about how to generate & call GET APIs using nodejs an
 
 Data obtained for each of the APIs is as follows for example:
 
-###/products:
+### /products:
 ```
 [
     {
@@ -66,7 +66,7 @@ Data obtained for each of the APIs is as follows for example:
     ....
 ```
 
-###/inventory
+### /inventory
 ```
 {
     "inventory": [
@@ -76,7 +76,7 @@ Data obtained for each of the APIs is as follows for example:
       },
     ....
 ```
-###/productList
+### /productList
 And repeat
 
 ```
@@ -95,8 +95,8 @@ The application also handles the errors nicely and displays it to user as a HTML
 when a filter was provided and the list doesn't contain the product then a HTML response is generated as follows:
 
 ```
-#Please Verify the data entered
-##{error.stack: No Data Matched with the list}
+## Please Verify the data entered
+## {error.stack: No Data Matched with the list}
 ```
 
 other errors with related to code are also thrown in the same way.
@@ -104,6 +104,8 @@ other errors with related to code are also thrown in the same way.
 The application api call without defining the API i.e. just using a GET '/' will return a HTML response as below
 
 ```
-#Product Store
-###Welcome to Product Store
+## Product Store
+### Welcome to Product Store
 ```
+
+The data
