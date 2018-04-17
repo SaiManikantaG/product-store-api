@@ -127,7 +127,7 @@ This is folder is just for reference if in case you want to use to get the data 
 ```
 product.js
 productList.js
-iventory.js
+inventory.js
 ```
 
 ### Replace the path of data sourcese below, for example here I have shown .json files but we can replace it with specific URL endpoint where we can get our initial data from
