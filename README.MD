@@ -114,7 +114,13 @@ The server when we run
 ```
 npm start
 ```
-is hosted at
+is hosted at, FYI we can easily change the port when we host it my changing the value of port in 
+```
+--bin
+   |__ www file
+```
+
+change the port number to the one that you wanted, I have here set the port to 3000 
 
 ```
 http://localhost:3000/
