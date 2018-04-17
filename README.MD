@@ -56,7 +56,7 @@ The APP is to give an idea about how to generate & call GET APIs using nodejs an
 
 Data obtained for each of the APIs is as follows for example:
 
-### /products:
+### /product:
 ```
 [
     {
