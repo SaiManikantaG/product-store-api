@@ -108,4 +108,31 @@ The application api call without defining the API i.e. just using a GET '/' will
 ### Welcome to Product Store
 ```
 
-The data
+## server hosting and port
+The server when we run 
+
+```
+npm start
+```
+is hosted at
+
+```
+http://localhost:3000/
+```
+follow shown API endpoints to see the data
+
+## Datasource folder
+This is folder is just for reference if in case you want to use to get the data initially, you can replace the path in below files:
+
+```
+product.js
+productList.js
+iventory.js
+```
+
+### Replace the path of data sourcese below, for example here I have shown .json files but we can replace it with specific URL endpoint where we can get our initial data from
+
+```
+var productList = require('../datasource/product.json');
+var inventoryList = require('../datasource/inventory.json');
+```
