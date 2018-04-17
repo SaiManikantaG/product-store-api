@@ -5,9 +5,8 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var productsRouter = require('./routes/apis/product');
-var inventoryRouter = require('./routes/apis/inventory');
-var productListRouter = require('./routes/apis/productList');
+var productsRouter = require('./routes/apis/productApi');
+var productListRouter = require('./routes/apis/prdAndInv');
 
 var app = express();
 // Enable cross origin
@@ -27,8 +26,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/product', productsRouter);
-app.use('/inventory', inventoryRouter);
+app.use('/', productsRouter);
 app.use('/productList', productListRouter);
 
 // catch 404 and forward to error handler
